@@ -86,15 +86,15 @@ failure of the exercise.
 ## Files
 
 ```
-research.py                          # full pipeline, run with: python3 research.py
+research.py                     # full pipeline, run with: python3 research.py
 aapl.csv                        # raw input data
-performance_summary.csv      # strategy vs buy-and-hold stats
-hypothesis_test.txt          # H1 and H2 IC/t-stat/p-value results
-trade_log.csv                # every individual trade
-research_data.csv            # full signal/return dataset
-equity_curve.png             # strategy vs benchmark
-rolling_ic.png               # signal stability over time
-signal_vs_forward_return.png # scatter of signal vs outcome
+performance_summary.csv         # strategy vs buy-and-hold stats
+hypothesis_test.txt             # H1 and H2 IC/t-stat/p-value results
+trade_log.csv                   # every individual trade
+research_data.csv               # full signal/return dataset
+equity_curve.png                # strategy vs benchmark
+rolling_ic.png                  # signal stability over time
+signal_vs_forward_return.png    # scatter of signal vs outcome
 ```
 
 Run it yourself: `pip install pandas numpy scipy matplotlib && python3 research.py`
