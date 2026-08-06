@@ -42,7 +42,7 @@ momentum continues over the next 5 days.
   different time period or a different name) before trusting it. I did
   not do that here — this is flagged as the single biggest weakness of
   the analysis, on purpose.
-- The rolling 60-day IC (`rolling_ic.png`) makes this concrete:
+- The rolling 60-day IC (`outputs/rolling_ic.png`) makes this concrete:
   the "significant" full-sample IC is driven mostly by one strong regime
   in mid-2016, not a stable effect across the whole sample. A real
   research process would treat that as a yellow flag, not a green light.
@@ -86,15 +86,15 @@ failure of the exercise.
 ## Files
 
 ```
-research.py                     # full pipeline, run with: python3 research.py
-aapl.csv                        # raw input data
-performance_summary.csv         # strategy vs buy-and-hold stats
-hypothesis_test.txt             # H1 and H2 IC/t-stat/p-value results
-trade_log.csv                   # every individual trade
-research_data.csv               # full signal/return dataset
-equity_curve.png                # strategy vs benchmark
-rolling_ic.png                  # signal stability over time
-signal_vs_forward_return.png    # scatter of signal vs outcome
+research.py                             # full pipeline, run with: python3 research.py
+data/aapl.csv                           # raw input data
+outputs/performance_summary.csv         # strategy vs buy-and-hold stats
+outputs/hypothesis_test.txt             # H1 and H2 IC/t-stat/p-value results
+outputs/trade_log.csv                   # every individual trade
+outputs/research_data.csv               # full signal/return dataset
+outputs/equity_curve.png                # strategy vs benchmark
+outputs/rolling_ic.png                  # signal stability over time
+outputs/signal_vs_forward_return.png    # scatter of signal vs outcome
 ```
 
 Run it yourself: `pip install pandas numpy scipy matplotlib && python3 research.py`
