@@ -1,0 +1,16 @@
+H1: Short-Term Reversal -- mom_5d_z vs 5-day Forward Return
+====================================================================
+Spearman IC:   0.0968  (H1 predicts NEGATIVE)
+t-statistic:   2.03
+p-value:        0.0431
+N:              437
+Verdict:        IC is POSITIVE, the opposite sign from H1's prediction -> reversal hypothesis REJECTED. The data instead suggests short-term MOMENTUM CONTINUATION over this horizon, not reversal.
+
+H2: Momentum Continuation (in-sample, exploratory, sign-flipped from H1)
+====================================================================
+Spearman IC:   0.0968
+t-statistic:   2.03
+p-value:        0.0431
+N:              437
+Caveat:         Tested on the same sample used to reject H1 -- 
+                needs out-of-sample validation before being trusted.
